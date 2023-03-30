@@ -100,14 +100,14 @@ public class Main implements ActionListener {
         botonCalcular.setBorder(null);
         botonCalcular.addActionListener(new Main());
 
-        resultadoEtiqueta.setBounds(65,200,400,25);
+        resultadoEtiqueta.setBounds(65,200,120,25);
         resultadoEtiqueta.setFont(myFont2);
         resultadoEtiqueta.setForeground(new Color(176,255,75));
-        //resultadoEtiqueta.setHorizontalAlignment(SwingConstants.CENTER);
+        resultadoEtiqueta.setHorizontalAlignment(SwingConstants.CENTER);
 
-        operacionEtiqueta.setBounds(65,230,300,25);
+        operacionEtiqueta.setBounds(65,230,120,25);
         operacionEtiqueta.setForeground(new Color(255,247,2));
-        //operacionEtiqueta.setHorizontalAlignment(SwingConstants.CENTER);
+        operacionEtiqueta.setHorizontalAlignment(SwingConstants.CENTER);
 
         panel2.setBackground(new Color(40,40,40));
 
