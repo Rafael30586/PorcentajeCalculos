@@ -40,7 +40,7 @@ public class Main implements ActionListener {
         frame.setBounds(50,50,270,300);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setMinimumSize(new Dimension(270,300));
-        frame.setTitle("S-Tools");
+        frame.setTitle("versión 1.02");
         frame.setResizable(false);
 
 
