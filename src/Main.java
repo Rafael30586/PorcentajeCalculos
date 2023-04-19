@@ -17,7 +17,7 @@ public class Main implements ActionListener {
     private static CuadroTexto valorCuadro;
     private static CuadroTexto porcentajeCuadro;
     private static JLabel valorEtiqueta;
-    private static final String opcion[]={"","porcentaje de...","aumento porcentual","disminucion porcentual"};
+    private static final String opcion[]={"","porcentaje de...","aumento porcentual","disminución porcentual"};
     private static File icono;
     private static JLabel porcentajeEtiqueta;
     private static JLabel resultadoEtiqueta;
@@ -40,7 +40,7 @@ public class Main implements ActionListener {
         frame.setBounds(50,50,270,300);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setMinimumSize(new Dimension(270,300));
-        frame.setTitle("versión 1.02");
+        frame.setTitle("versión 1.04");
         frame.setResizable(false);
 
 
@@ -135,17 +135,17 @@ public class Main implements ActionListener {
                 resultadoEtiqueta.setText(""+resultado);
                 operacionEtiqueta.setText(""+valorInicial+" + "+porcentaje+"%");
             }
-            else if(opcionMenu.equals("disminucion porcentual")){
+            else if(opcionMenu.equals("disminución porcentual")){
                 resultado = valorInicial - ((valorInicial*porcentaje)/100);
                 resultadoEtiqueta.setText(""+resultado);
                 operacionEtiqueta.setText(""+valorInicial+" - "+porcentaje+"%");
             }
             else {
-                JOptionPane.showMessageDialog(null,"Elija una opcion en el menu antes de realizar calculos");
+                JOptionPane.showMessageDialog(null,"Elija una opción en el menu antes de realizar cálculos", "Aviso", JOptionPane.WARNING_MESSAGE);
             }
         }
         catch(Exception numberFormat){
-            JOptionPane.showMessageDialog(null,"Solo se permite ingresar numeros");
+            JOptionPane.showMessageDialog(null,"Solo se permite ingresar números", "Aviso", JOptionPane.WARNING_MESSAGE);
         }
 
 
