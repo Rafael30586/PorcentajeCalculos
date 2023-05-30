@@ -1,6 +1,6 @@
 # PorcentajeCalculosEX
 
-Obtenga el porcentajes de un número que usted elija o variaciones de dicho resultado tales como el aumento
+Obtenga el porcentaje de un número que usted elija o variaciones de dicho resultado tales como el aumento
 o disminución porcentual de dicho valor. 
 Utilice los dos cuadros de texto para insertar el valor y el porcentaje que desea obtener, luego pulsar el botón
 y observar el resultado. Las variaciones a dicho cálculo pueden ser realizadas gracias a un componente presente en
